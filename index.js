@@ -26,13 +26,13 @@ bot.once('ready', () => {
     console.log('Bot is ready.');
 });
 
-const whitelistedIds = ['', '', '', ''];
+const whitelistedIds = ['1207479404746252340', '1207479404746252340', '', ''];
 const blacklistedIps = [
     { ip: "1.1.1.1", port: 80},
 ];
 
 function channelCheck(channel) {
-    return channel.id === '1140987090843213826';
+    return channel.id === '1415989070642810921';
 }
 
 bot.on('messageCreate', async (message) => {
